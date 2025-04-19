@@ -1,0 +1,57 @@
+@media (min-width: 768) {
+    .nextra-search {
+        width: 220px;
+    }
+}
+
+mark {
+    background-color: transparent;
+    color: royalblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    border: none;
+}
+
+.nextra-sidebar {
+    width: 160px;
+}
+
+.nextra-toc p {
+    display: none;
+}
+
+.nextra-scrollbar {
+    scrollbar-width: none;
+}
+
+.nextra-search input:focus {
+    box-shadow: none;
+    background-color: #b7b7b730;
+}
+
+.nextra-navbar-blur {
+    background-color: transparent;
+    backdrop-filter: none;
+    border: none;
+}
+
+.nextra-breadcrumb {
+    display: none;
+}
+
+.nextra-navbar .nextra-scrollbar {
+    display: none;
+}
+
+button[aria-label="Minimize image"] {
+    opacity: 0;
+}
+
+div[data-rmiz-modal-overlay="visible"] {
+    background-color: white;
+}
