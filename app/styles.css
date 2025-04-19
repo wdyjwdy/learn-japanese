@@ -55,3 +55,11 @@ button[aria-label="Minimize image"] {
 div[data-rmiz-modal-overlay="visible"] {
     background-color: white;
 }
+
+.nextra-toc .nextra-scrollbar li a {
+    font-weight: 300 !important;
+}
+
+.nextra-toc .nextra-scrollbar li a:hover {
+    color: var(--x-color-primary-600);
+}
