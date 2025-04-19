@@ -25,10 +25,6 @@ a {
     width: 160px;
 }
 
-.nextra-toc p {
-    display: none;
-}
-
 .nextra-scrollbar {
     scrollbar-width: none;
 }

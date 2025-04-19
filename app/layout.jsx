@@ -40,7 +40,7 @@ export default async function RootLayout({ children }) {
           feedback={{ content: null }}
           navigation={false}
           sidebar={{ toggleButton: false }}
-          toc={{ backToTop: false }}
+          toc={{ backToTop: false, title: "TOC" }}
           darkMode={false}
           search={<Search placeholder="Search" />}
         >
