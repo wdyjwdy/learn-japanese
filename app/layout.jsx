@@ -10,8 +10,6 @@ export const metadata = {
   // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
 };
 
-const font = localFont({ src: "./font.ttf" });
-
 const navbar = (
   <Navbar
     logo={<Image width="24" height="24" src="logo.png" />}
@@ -28,7 +26,6 @@ export default async function RootLayout({ children }) {
       dir="ltr"
       // Suggested by `next-themes` package https://github.com/pacocoursey/next-themes#with-app
       suppressHydrationWarning
-      className={font.className}
     >
       <Head
       // ... Your additional head options
