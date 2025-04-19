@@ -3,7 +3,7 @@ import { Layout } from "nextra-theme-docs";
 export default {
   index: {
     title: "Home",
-    type: "page",
+    type: "doc",
     display: "hidden",
     theme: {
       layout: "full",
@@ -16,6 +16,10 @@ export default {
   },
   vocab: {
     title: "词汇",
+    type: "page",
+  },
+  resource: {
+    title: "学习资料",
     type: "page",
   },
 };

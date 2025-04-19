@@ -17,6 +17,14 @@ h2 {
     border: none;
 }
 
+code {
+    font-family: "font";
+}
+
+a {
+    text-decoration: none;
+}
+
 .nextra-sidebar {
     width: 160px;
 }

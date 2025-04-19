@@ -3,11 +3,14 @@ import { Head, Search, Image } from "nextra/components";
 import { getPageMap } from "nextra/page-map";
 import "nextra-theme-docs/style.css";
 import "./styles.css";
+import localFont from "next/font/local";
 
 export const metadata = {
   // Define your metadata here
   // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
 };
+
+const font = localFont({ src: "./font.ttf" });
 
 const navbar = (
   <Navbar
@@ -25,6 +28,7 @@ export default async function RootLayout({ children }) {
       dir="ltr"
       // Suggested by `next-themes` package https://github.com/pacocoursey/next-themes#with-app
       suppressHydrationWarning
+      className={font.className}
     >
       <Head
       // ... Your additional head options
