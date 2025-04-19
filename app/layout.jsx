@@ -11,7 +11,7 @@ export const metadata = {
 
 const navbar = (
   <Navbar
-    logo={<Image width="24" height="24" src="../logo.png" />}
+    logo={<Image width="24" height="24" src="logo.png" />}
     // ... Your additional navbar options
   />
 );
