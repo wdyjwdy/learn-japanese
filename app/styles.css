@@ -21,6 +21,11 @@ a {
     text-decoration: none;
 }
 
+em {
+    font-style: normal;
+    color: indianred;
+}
+
 .nextra-sidebar {
     width: 160px;
 }
