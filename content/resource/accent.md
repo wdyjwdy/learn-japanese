@@ -2,7 +2,9 @@
 
 ## 五十音
 
-1. [发音视频](https://youtu.be/JHai9am2BQg?si=Feyh9bmJ3nwmSmkE)
+1. [清音练习](https://youtu.be/JHai9am2BQg?si=Feyh9bmJ3nwmSmkE)
+2. [浊音练习](https://youtu.be/mavgrqTggq0?si=mWJk5y9hA0IApKEd)
+3. [混合练习](https://youtu.be/xmlQT5S2g4I?si=l24JswgD-pdvKTsW)
 
 ## 浊音
 

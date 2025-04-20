@@ -18,8 +18,6 @@
 - [Forvo](https://zh.forvo.com/languages/ja/)：真人发音网站。
 - [NHK发音词典]()：付费，真人发音词典。
 - [Jotoba](https://jotoba.de)：免费词典，带真人发音。
-- [如何区分浊音](http://nihongo.hum.tmu.ac.jp/mic-j/VoAspNew/index.html)
-- [母音无声化](https://youtu.be/ioLdIwnURfQ?si=xbz4buwMzvy3PBWs)
 - [ゲンキ听力资源](https://genki.japantimes.co.jp/site/video/en/)
 
 ## 词典
