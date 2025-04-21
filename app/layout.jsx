@@ -3,7 +3,7 @@ import { Head, Search, Image } from "nextra/components";
 import { getPageMap } from "nextra/page-map";
 import "nextra-theme-docs/style.css";
 import "./styles.css";
-import localFont from "next/font/local";
+import Logo from "./logo.png";
 
 export const metadata = {
   // Define your metadata here
@@ -12,7 +12,7 @@ export const metadata = {
 
 const navbar = (
   <Navbar
-    logo={<Image width="24" height="24" src="/logo.png" />}
+    logo={<Image width="24" height="24" src={Logo} alt="logo" />}
     // ... Your additional navbar options
   />
 );
