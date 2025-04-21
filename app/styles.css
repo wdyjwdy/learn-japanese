@@ -26,6 +26,15 @@ em {
     color: indianred;
 }
 
+strong {
+    color: steelblue;
+}
+
+main ul li::marker {
+    content: "★ ";
+    color: steelblue;
+}
+
 .nextra-sidebar {
     width: 160px;
 }
