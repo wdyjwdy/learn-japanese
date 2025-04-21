@@ -39,7 +39,10 @@ export default async function RootLayout({ children }) {
           editLink={null}
           feedback={{ content: null }}
           navigation={false}
-          sidebar={{ toggleButton: false }}
+          sidebar={{
+            toggleButton: false,
+            defaultMenuCollapseLevel: 1,
+          }}
           toc={{ backToTop: false, title: "TOC" }}
           darkMode={false}
           search={<Search placeholder="Search" className="searchbox" />}
