@@ -42,7 +42,8 @@ kbd {
 }
 
 @media screen and (min-width: 768px) {
-    .searchbox {
+    .searchbox,
+    .searchbox input {
         width: 162px;
     }
 }
