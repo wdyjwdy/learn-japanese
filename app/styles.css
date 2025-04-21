@@ -1,9 +1,3 @@
-@media (min-width: 768) {
-    .nextra-search {
-        width: 220px;
-    }
-}
-
 mark {
     background-color: transparent;
     color: royalblue;
@@ -35,8 +29,22 @@ main ul li::marker {
     color: steelblue;
 }
 
+kbd {
+    display: none;
+}
+
 .nextra-sidebar {
     width: 160px;
+}
+
+.nextra-toc {
+    width: 200px;
+}
+
+@media (min-width: 768) {
+    .nextra-search {
+        width: 160px !important;
+    }
 }
 
 .nextra-scrollbar {
