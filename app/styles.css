@@ -42,8 +42,8 @@ kbd {
 }
 
 @media (min-width: 768) {
-    .nextra-search {
-        width: 160px !important;
+    .searchbox {
+        width: 162px;
     }
 }
 
