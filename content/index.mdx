@@ -1,9 +1,25 @@
 import { Cards } from "nextra/components";
+import { BookOpen, Star, Archive } from "lucide-react";
 
 # Japanese Note
 
 <Cards>
-  <Cards.Card title="语法" href="/grammar/n4" />
-  <Cards.Card title="词汇" href="/vocab/compare" />
-  <Cards.Card title="学习资料" href="/resource/learn" />
+  <Cards.Card
+    icon={<BookOpen color="#c2004e" />}
+    arrow
+    title="语法"
+    href="/grammar/n4"
+  />
+  <Cards.Card
+    icon={<Star color="#c2004e" />}
+    arrow
+    title="词汇"
+    href="/vocab/compare"
+  />
+  <Cards.Card
+    icon={<Archive color="#c2004e" />}
+    arrow
+    title="学习资料"
+    href="/resource/learn"
+  />
 </Cards>

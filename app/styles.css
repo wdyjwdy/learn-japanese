@@ -11,7 +11,15 @@ h2 {
     border: none;
 }
 
-a {
+main a {
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+.nextra-cards a:hover {
     text-decoration: none;
 }
 
