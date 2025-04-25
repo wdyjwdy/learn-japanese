@@ -37,6 +37,28 @@ main ul li::marker {
     color: steelblue;
 }
 
+main a {
+    color: indianred;
+}
+
+main a[title] {
+    position: relative;
+}
+
+main a[title]:after {
+    content: attr(title);
+    position: absolute;
+    white-space: nowrap;
+    bottom: 100%;
+    left: 0;
+    color: indianred;
+    opacity: 0;
+}
+
+main a[title]:hover:after {
+    opacity: 1;
+}
+
 kbd {
     display: none;
 }
