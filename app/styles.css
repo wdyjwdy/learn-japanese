@@ -91,6 +91,12 @@ div[data-rmiz-modal-overlay="visible"] {
     background-color: white;
 }
 
+@media (prefers-color-scheme: dark) {
+    div[data-rmiz-modal-overlay="visible"] {
+        background-color: black;
+    }
+}
+
 .nextra-toc .nextra-scrollbar li a {
     font-weight: 300 !important;
 }
