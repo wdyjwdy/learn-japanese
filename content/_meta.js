@@ -14,6 +14,11 @@ export default {
     title: "语法",
     type: "page",
   },
+  grammars: {
+    title: "语法项",
+    type: "page",
+    display: "hidden",
+  },
   vocab: {
     title: "词汇",
     type: "page",
