@@ -32,11 +32,6 @@ strong {
     color: steelblue;
 }
 
-main ul li::marker {
-    content: "★ ";
-    color: steelblue;
-}
-
 main a {
     color: indianred;
 }
@@ -103,10 +98,4 @@ div[data-rmiz-modal-overlay="visible"] {
 
 .nextra-toc .nextra-scrollbar li a:hover {
     color: var(--x-color-primary-600);
-}
-
-.nextra-callout {
-    background-color: #556b2f0f;
-    border-color: darkolivegreen;
-    color: darkolivegreen;
 }
