@@ -3,7 +3,7 @@ import { Head, Search, Image } from "nextra/components";
 import { getPageMap } from "nextra/page-map";
 import "nextra-theme-docs/style.css";
 import "./styles.css";
-import Logo from "./logo.png";
+import Logo from "./icon.svg";
 
 export const metadata = {
   // Define your metadata here
