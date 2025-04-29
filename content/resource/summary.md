@@ -22,9 +22,10 @@
 
 ## 词典
 
+`🥇` `💰` [物书堂](https://apps.apple.com/hk/app/dictionaries/id1380563956)：正版词典，内容及时更新。\
 [苹果设备自带词典](https://support.apple.com/zh-cn/guide/dictionary/welcome/mac)：大辞林，超级中日词典，英和词典。\
-[コトバンク](https://kotobank.jp/)：大辞泉，小学馆，国语大词典。\
-`🥇` `💰` [物书堂](https://apps.apple.com/hk/app/dictionaries/id1380563956)：正版词典，内容及时更新。
+[コトバンク](https://kotobank.jp/)\
+[JapanDict](https://www.japandict.com/)
 
 ## 阅读
 
