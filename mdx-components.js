@@ -8,5 +8,11 @@ export function useMDXComponents(components) {
   return {
     ...themeComponents,
     ...components,
+    // code: Example,
   };
+}
+
+function Example(props) {
+  console.log(props);
+  return <h1>123</h1>;
 }
