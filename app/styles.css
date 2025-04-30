@@ -13,6 +13,7 @@ h2 {
 
 main a {
     text-decoration: none;
+    color: indianred;
 }
 
 main a:hover {
@@ -21,19 +22,6 @@ main a:hover {
 
 .nextra-cards a:hover {
     text-decoration: none;
-}
-
-em {
-    font-style: normal;
-    color: indianred;
-}
-
-strong {
-    color: steelblue;
-}
-
-main a {
-    color: indianred;
 }
 
 kbd {
