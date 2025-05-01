@@ -8,11 +8,23 @@ export function useMDXComponents(components) {
   return {
     ...themeComponents,
     ...components,
-    // code: Example,
+    blockquote: Example,
   };
 }
 
-function Example(props) {
-  console.log(props);
-  return <h1>123</h1>;
+function Example({ children }) {
+  const data = children[1].props.children;
+  console.log("child", children);
+  const list = data.split("\n").map((x) => x.split("#"));
+  console.log("list", list);
+  return (
+    <div className="example">
+      {list.map((item) => (
+        <p key={item}>
+          <span className="jp">{item[0]}</span>
+          <span className="cn">{item[1]}</span>
+        </p>
+      ))}
+    </div>
+  );
 }
