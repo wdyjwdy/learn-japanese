@@ -1,4 +1,5 @@
 import { useMDXComponents as getThemeComponents } from "nextra-theme-docs"; // nextra-theme-blog or your custom theme
+import React from "react";
 
 // Get the default MDX components
 const themeComponents = getThemeComponents();
@@ -13,17 +14,21 @@ export function useMDXComponents(components) {
 }
 
 function Example({ children }) {
-  const data = children[1].props.children;
-  console.log("child", children);
-  const list = data.split("\n").map((x) => x.split("#"));
-  console.log("list", list);
+  const list = children
+    .filter((x) => typeof x === "object")
+    .map((x) => x.props.children.split("\n").map((x) => x.split("#")));
   return (
     <div className="example">
-      {list.map((item) => (
-        <p key={item}>
-          <span className="jp">{item[0]}</span>
-          <span className="cn">{item[1]}</span>
-        </p>
+      {list.map((group, index) => (
+        <React.Fragment key={group}>
+          {index !== 0 && <br />}
+          {group.map((item) => (
+            <p key={item}>
+              <span className="jp">{item[0]}</span>
+              <span className="cn">{item[1]}</span>
+            </p>
+          ))}
+        </React.Fragment>
       ))}
     </div>
   );
