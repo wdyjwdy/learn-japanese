@@ -10,7 +10,17 @@ export function useMDXComponents(components) {
     ...themeComponents,
     ...components,
     blockquote: Example,
+    h1: H1,
+    h2: H2,
   };
+}
+
+function H1({ children }) {
+  return <h1 data-pagefind-body>{children}</h1>;
+}
+
+function H2({ children, id }) {
+  return <h2 id={id}>{children}</h2>;
 }
 
 function Example({ children }) {
