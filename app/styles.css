@@ -20,6 +20,10 @@ em {
     text-decoration-color: red;
 }
 
+strong {
+    color: steelblue;
+}
+
 main a {
     text-decoration: none;
     color: indianred;

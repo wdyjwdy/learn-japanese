@@ -37,4 +37,11 @@ export default {
       timestamp: false,
     },
   },
+  pronunciation: {
+    title: "发音与听力",
+    type: "page",
+    theme: {
+      timestamp: false,
+    },
+  },
 };

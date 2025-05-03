@@ -2,6 +2,10 @@
 
 基础的[清音](#清音)，建议直接死记硬背，不要使用联想记忆法。后面的[浊音](#浊音)和[坳音](#坳音)不用背自然就会了。
 
+- [清音练习](https://youtu.be/JHai9am2BQg?si=Feyh9bmJ3nwmSmkE)
+- [浊音练习](https://youtu.be/mavgrqTggq0?si=mWJk5y9hA0IApKEd)
+- [混合练习](https://youtu.be/xmlQT5S2g4I?si=l24JswgD-pdvKTsW)
+
 ## 清音
 
 > あ　か　さ　た　な　は　ま　や　ら　わ　ん
