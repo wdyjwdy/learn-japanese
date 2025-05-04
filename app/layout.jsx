@@ -45,7 +45,19 @@ export default async function RootLayout({ children }) {
           }}
           toc={{ backToTop: false, title: "TOC" }}
           darkMode={false}
-          search={<Search placeholder="Search" className="searchbox" />}
+          search={
+            <Search
+              placeholder="Search"
+              className="searchbox"
+              emptyResult={
+                <p>
+                  <span>只能搜标题</span>
+                  <br />
+                  <span>只能顺序匹配</span>
+                </p>
+              }
+            />
+          }
         >
           {children}
         </Layout>

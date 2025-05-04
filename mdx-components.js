@@ -20,7 +20,11 @@ function H1({ children }) {
 }
 
 function H2({ children, id }) {
-  return <h2 id={id}>{children}</h2>;
+  return (
+    <h2 data-pagefind-body id={id}>
+      {children}
+    </h2>
+  );
 }
 
 function Example({ children }) {
