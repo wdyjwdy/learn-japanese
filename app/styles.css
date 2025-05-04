@@ -3,6 +3,12 @@
     color: royalblue;
 }
 
+@media screen and (min-width: 768px) {
+    .nextra-search-results {
+        width: 300px;
+    }
+}
+
 h1 {
     text-align: center;
     font-size: xx-large;
@@ -122,4 +128,8 @@ div[data-rmiz-modal-overlay="visible"] {
         background-color: black;
         border-color: #333333;
     }
+}
+
+.nextra-search-results a div:nth-child(2) {
+    display: none;
 }
