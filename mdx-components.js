@@ -1,5 +1,7 @@
 import { useMDXComponents as getThemeComponents } from "nextra-theme-docs"; // nextra-theme-blog or your custom theme
 import React from "react";
+import Link from "next/link";
+import { Link as LinkIcon } from "lucide-react";
 
 // Get the default MDX components
 const themeComponents = getThemeComponents();
@@ -12,7 +14,17 @@ export function useMDXComponents(components) {
     blockquote: Example,
     h1: H1,
     h2: H2,
+    a: A,
   };
+}
+
+function A({ children, href }) {
+  return (
+    <Link href={href} className="custom-link">
+      <LinkIcon size={12} />
+      {children}
+    </Link>
+  );
 }
 
 function H1({ children }) {

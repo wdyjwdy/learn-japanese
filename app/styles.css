@@ -22,7 +22,6 @@ h2 {
 }
 
 em {
-    text-decoration-style: wavy;
     text-decoration-line: underline;
     text-decoration-style: dashed;
     text-underline-offset: 4px;
@@ -32,19 +31,6 @@ em {
 
 strong {
     color: steelblue;
-}
-
-main a {
-    text-decoration: none;
-    color: indianred;
-}
-
-main a:hover {
-    text-decoration: underline;
-}
-
-.nextra-cards a:hover {
-    text-decoration: none;
 }
 
 kbd {
@@ -132,4 +118,14 @@ div[data-rmiz-modal-overlay="visible"] {
 
 .nextra-search-results a div:nth-child(2) {
     display: none;
+}
+
+.custom-link {
+    display: inline-flex;
+    align-items: center;
+    text-underline-offset: 4px;
+    color: steelblue;
+}
+.custom-link:hover {
+    text-decoration: underline;
 }
