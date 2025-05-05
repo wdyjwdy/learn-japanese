@@ -3,19 +3,14 @@ import { Head, Search, Image } from "nextra/components";
 import { getPageMap } from "nextra/page-map";
 import "nextra-theme-docs/style.css";
 import "./styles.css";
-import Logo from "./icon.svg";
+import { House } from "lucide-react";
 
 export const metadata = {
   // Define your metadata here
   // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
 };
 
-const navbar = (
-  <Navbar
-    logo={<Image width="24" height="24" src={Logo} alt="logo" />}
-    // ... Your additional navbar options
-  />
-);
+const navbar = <Navbar logo={<House />} />;
 
 export default async function RootLayout({ children }) {
   return (
