@@ -6,6 +6,7 @@ export default {
     theme: {
       layout: "full",
       timestamp: false,
+      breadcrumb: false,
     },
   },
   grammar: {
@@ -13,6 +14,7 @@ export default {
     type: "page",
     theme: {
       timestamp: false,
+      breadcrumb: false,
     },
   },
   grammars: {
@@ -21,6 +23,7 @@ export default {
     display: "hidden",
     theme: {
       timestamp: false,
+      breadcrumb: false,
     },
   },
   vocab: {
@@ -28,6 +31,7 @@ export default {
     type: "page",
     theme: {
       timestamp: false,
+      breadcrumb: false,
     },
   },
   resource: {
@@ -35,6 +39,7 @@ export default {
     type: "page",
     theme: {
       timestamp: false,
+      breadcrumb: false,
     },
   },
   pronunciation: {
@@ -42,6 +47,7 @@ export default {
     type: "page",
     theme: {
       timestamp: false,
+      breadcrumb: false,
     },
   },
 };

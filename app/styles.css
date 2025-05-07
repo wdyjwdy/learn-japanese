@@ -72,16 +72,6 @@ kbd {
     }
 }
 
-.nextra-navbar-blur {
-    background-color: transparent;
-    backdrop-filter: none;
-    border: none;
-}
-
-.nextra-breadcrumb {
-    display: none;
-}
-
 .nextra-navbar .nextra-scrollbar {
     display: none;
 }
