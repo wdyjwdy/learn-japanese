@@ -56,9 +56,20 @@ kbd {
     scrollbar-width: none;
 }
 
+.nextra-search input {
+    border: 1px solid rgba(0, 0, 0, 0.02);
+}
+
 .nextra-search input:focus {
     box-shadow: none;
-    background-color: #b7b7b730;
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+    .nextra-search input:focus {
+        border-color: rgba(255, 255, 255, 0.1);
+    }
 }
 
 .nextra-navbar-blur {
