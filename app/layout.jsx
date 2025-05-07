@@ -1,5 +1,5 @@
 import { Layout, Navbar } from "nextra-theme-docs";
-import { Head, Search, Image } from "nextra/components";
+import { Head, Search } from "nextra/components";
 import { getPageMap } from "nextra/page-map";
 import "nextra-theme-docs/style.css";
 import "./styles.css";
