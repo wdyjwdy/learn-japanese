@@ -51,3 +51,9 @@
   <ruby>明日<rt>あした</rt></ruby>の<ruby>晩<rt>ばん</rt></ruby>
 - <ruby>毎朝<rt>まいあさ</rt></ruby> -
   <ruby>毎晩<rt>まいばん</rt></ruby>
+
+---
+
+- <ruby>平日<rt>へいじつ</rt></ruby> -
+  <ruby>週末<rt>しゅうまつ</rt></ruby> -
+  <ruby>祝日<rt>しゅくじつ</rt></ruby>
